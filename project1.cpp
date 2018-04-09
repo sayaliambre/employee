@@ -8,9 +8,9 @@
 
 #include<windows.h>
 
-//#include <ctime>
 
-//#include <dos.h>
+
+
 
 #include<dos.h>
 
@@ -117,6 +117,9 @@ int main()
          sort();
 
          break;
+    case'8':
+         
+         exit(0);
 
   }
 
@@ -134,7 +137,7 @@ int main()
 
   system("cls");
 
- // highvideo();
+ 
 
 cout<<"          ";
 
@@ -142,7 +145,7 @@ printf("\n*****  Employees record management system ***** ");
 
 
 
-//normvideo();
+
 
 cout<<endl;
 
@@ -192,13 +195,11 @@ void build()
 
  system("cls");
 
-// highvideo();
 
- printf("enter the information:");
+
+ cout<<"enter the information:";
 
  cout<<endl;
-
- //normvideo();
 
  cout<<"maximum number of entries are ->  20"<<endl;
 
@@ -247,13 +248,13 @@ void  list()
 
  system("cls");
 
-// highvideo();
+
 
  printf("       ********List The Table********");
 
  cout<<endl;
 
- //normvideo();
+ 
 
  cout<<"     Name     Code     Designation     Years(EXP)     Age "<<endl;
 
@@ -293,13 +294,13 @@ void  list()
 
   num+=1;
 
- // highvideo();
+ 
 
-  printf("Insert New Record");
+  cout<<"Insert New Record";
 
   cout<<endl;
 
-  //normvideo();
+  
 
   cout<<"Enter The Following Items"<<endl;
 
@@ -340,7 +341,7 @@ void  list()
 
    system("cls");
 
-  // highvideo();
+  
 
    int code;
 
@@ -348,7 +349,7 @@ void  list()
 
    printf("Delete An Entry");
 
-   //normvideo();
+   
 
    cout<<endl;
 
@@ -430,9 +431,9 @@ void edit()
 
  int jobcode;
 
-// highvideo();
 
- printf("          Edit An Entry           ");
+
+ cout<<"          Edit An Entry           ";
 
  cout<<endl;
 
@@ -454,7 +455,7 @@ void edit()
 
  char option;
 
- //normvideo();
+ 
 
  cout<<"Enter An jobcode To Edit An Entry----  ";
 
@@ -602,11 +603,11 @@ void search()
 
  system("cls");
 
- // highvideo();
+ 
 
   printf("Welcome To Search Of Employee Database ");
 
-  //normvideo();
+  
 
   cout<<endl;
 
@@ -665,7 +666,7 @@ void sort()
 
  system("cls");
 
-// highvideo();
+
 
  printf("Sort The Databse By JobCode");
 
